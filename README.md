@@ -11,7 +11,7 @@
 
 *[lien du site des données](https://odre.opendatasoft.com/explore/dataset/bornes-irve/information/?disjunctive.region&disjunctive.departement)*
 
-*[lien de la documentation sur l'API](https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.htm)*
+*[lien de la documentation sur l'API](https://help.opendatasoft.com/apis/ods-explore-v2/explore_v2.1.html)*
 
 Nous avons choisi pour ce projet une API de borne de recharche pour véhicules électriques de la base ODRE (OpenData Réseau Energie)
 
