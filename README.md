@@ -20,6 +20,8 @@ Nous avons choisi pour ce projet une API de borne de recharche pour véhicules �
 Bien que l'API contienne des données sur des bornes partout dans le monde, nous nous concentrons sur celles situées en France.
 De plus, elle donne accès à seulement 100 données par requete, ce qui fait que seulement 100 stations sont affichées.
 
+Malheureusement, l'API ne fournit pas d'images des bornes, ce qui nous empeche de répondre à certains critères de notation.
+
 Ces données datent de 2019 et sont mises à jour mensuellement
 
 ## Présentation de l'application
@@ -39,7 +41,7 @@ Base de donnée : https://odre.opendatasoft.com/explore/dataset/bornes-irve/info
 - [x] README.md
 - [x] API avec Nest JS
   - [x] Format JSON
-  - [ ] champ correspondant à l’url d’une image
+  - [ ] champ correspondant à l’url d’une image (pas d'images dans notre API...)
   - [x] champ correspondant à une latitude/longitude
   - [x] API chargée lors du démarrage
   - [x] Charger les données OpenData dans l’API Nest lors de son démarrage
@@ -50,6 +52,8 @@ Base de donnée : https://odre.opendatasoft.com/explore/dataset/bornes-irve/info
     - [x] Deployée sur Clever Cloud
   - [ ] *Bonus :*
     - [ ] *Ajouter un endpoint pour créer de nouvelles données*
+      - [x] côté serveur
+      - [ ] côté app 
     - [x] *Ajouter un endpoint de recherche*
     - [ ] *Gérer la pagination des données sur le endpoint retournant le résumé des données*
 - [x] Application Android
