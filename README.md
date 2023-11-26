@@ -1,13 +1,15 @@
 # Projet WEB + Android
 
-*10/12/2023, Pierre-Elliot Monsch - Lea Chapellon*
+*10/12/2023, Pierre-Elliot Monsch - Léa Chapellon*
 
 ## Sommaire
 
 1. Presentation de l'API
-2. Résumé des consignes
+2. Présenation de l'application
+3. Licenses
+4. Check-up des consignes
 
-## Presentation de l'API
+## Présentation de l'API
 
 *[lien du site des données](https://odre.opendatasoft.com/explore/dataset/bornes-irve/information/?disjunctive.region&disjunctive.departement)*
 
@@ -16,6 +18,20 @@
 Nous avons choisi pour ce projet une API de borne de recharche pour véhicules électriques de la base ODRE (OpenData Réseau Energie)
 
 Bien que l'API contienne des données sur des bornes partout dans le monde, nous nous concentrons sur celles situées en France.
+De plus, elle donne accès à seulement 100 données par requete, ce qui fait que seulement 100 stations sont affichées.
+
+Ces données datent de 2019 et sont mises à jour mensuellement
+
+## Présentation de l'application
+
+Notre application se nomme JuiceSpot. Les données sont affichées en liste et sur une carte. Avec la possibilité d'avoir des informations supplémentaires quand on sélectionne une borne de recharge.
+
+## Licenses
+
+App powered by Pierre-Elliot Monsch and Léa Chapellon
+Develloped with Android studio
+Host by CleverCloud
+Base de donnée : https://odre.opendatasoft.com/explore/dataset/bornes-irve/information/?disjunctive.region&disjunctive.departement sous licence ouverte v2.0 (Etalab)
 
 ## Consignes
 
@@ -34,20 +50,20 @@ Bien que l'API contienne des données sur des bornes partout dans le monde, nous
     - [x] Deployée sur Clever Cloud
   - [ ] *Bonus :*
     - [ ] *Ajouter un endpoint pour créer de nouvelles données*
-    - [ ] *Ajouter un endpoint de recherche*
+    - [x] *Ajouter un endpoint de recherche*
     - [ ] *Gérer la pagination des données sur le endpoint retournant le résumé des données*
 - [x] Application Android
   - [x] Récupération des données de l'API
     - [x] Affichage sur une carte
     - [x] Affichage dans une liste
-    - [ ] Affichage sur un écran avec le détail d'une donnée
+    - [x] Affichage sur un écran avec le détail d'une donnée
   - [x] Possibilité de mettre en favoris certains éléments
   - [x] 3 Fragments
     - [x] liste
     - [x] Map
     - [x] Info
-  - [ ] 2 activity
-  - [ ] Toolbar avec rafraichissement
+  - [x] 2 activity
+  - [x] Toolbar avec rafraichissement
   - [ ] *Bonus :*
     - [ ] Mise en place d’une base de données locale 
     - [ ] Utilisation de LiveData ou d’Observable pour la récupération de données dans la BDD
